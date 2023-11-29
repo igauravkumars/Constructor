@@ -21,7 +21,7 @@ function Book(title,author,genre,price){
 }
 
 Book.prototype.getBookInfo = function(title,author,genre,price){
-      return title,author,genre,price
+      return `${title},${this.author},${this.genre},${this.price}`
 }
 
 
